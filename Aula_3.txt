@@ -1,0 +1,45 @@
+    1  history 
+    2  cler
+    3  clear
+    4  cd
+    5  clear
+    6  git config -- user.name 'Adriana Vanessa'
+    7  git config --global user.email 'adrianaguevara198@gmil.com'
+    8  git config user.name
+    9  cd Desktop/
+   10  mkdir Curso_GIT
+   11  cd Curso_GIT/
+   12  git config user.name
+   13  git init
+   14  git status
+   15  echo '#Aprendendo usar o GIT' > readme.md
+   16  git status
+   17  git add readme.md
+   18  git status
+   19  git commit -m 'Commit inicial'
+   20  git status
+   21  echo '##Aula_1'>> readme.md
+   22  git status
+   23  echo 'Adriana V' > participante.txt
+   24  git status
+   25  git add ..
+   26  git add .
+   27  git status
+   28  git restore --staged participantes.txt
+   29  git status
+   30  git restore --staged participante.txt
+   31  git status
+   32  git add participante.txt
+   33  git status
+   34  git restore - sstaged .
+   35  git restore - staged .
+   36  git status
+   37  git restore --staged .
+   38  git status
+   39  git commit -am 'Alteração no readme'
+   40  git status
+   41  git add .
+   42  git status
+   43  git commit -m 'Adicionado participante.txt'
+   44  git status
+   45  history > Aula_3.txt
